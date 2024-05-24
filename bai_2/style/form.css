@@ -1,0 +1,75 @@
+/* Form */
+.form {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+/* Quizz */
+.quizz {
+    border-top: 3px solid #8DB2B7;
+    background-color: #EEEEEE;
+    padding: 16px;
+}
+.quizz > .title {
+    margin-block-start: 0px;
+    font-size: 20px;
+    color: #7098AA;
+}
+.quizz_form {
+    padding: 8px;
+    background-color: #FFFFFF;
+    color: gray;
+}
+.quizz_form > .title {
+    margin-block-start: 0px;
+}
+.quizz_form_field {
+    display: flex;
+    flex-direction: row;
+    justify-content: start;
+    align-items: center;
+    margin-bottom: 8px;
+}
+.quizz_form .action {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 20px;
+}
+
+/* Links */
+.links {
+    border-top: 3px solid #8DB2B7;
+    background-color: #EEEEEE;
+    padding: 16px;
+}
+
+.links .title {
+    margin-block-start: 0px;
+    font-size: 20px;
+    color: #7098AA;
+}
+
+.links ul {
+    padding-left: 18px;
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+}
+
+.links li::marker {
+    color: red;
+}
+
+
+footer {
+    height: 250px;
+    width: 100%;
+    background-color: #11756E;
+}
+.divider {
+    width: 100%;
+    height: 1px;
+    border-top: 2px solid gray;
+}

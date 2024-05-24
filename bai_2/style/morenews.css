@@ -1,0 +1,27 @@
+.more-news {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-top: 20px;
+}
+
+.more-news img {
+    width: 35%;
+}
+
+.more-news .content {
+    width: 65%;
+    padding-left: 18px;
+    background-color: #F5F5F5;
+}
+
+.more-news .content .time {
+    display: block;
+    margin-top: 18px;
+    color: gray;
+}
+
+.more-news .content > p {
+    font-weight: 600;
+    margin-block-start: 4px;
+}
