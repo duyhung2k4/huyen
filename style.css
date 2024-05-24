@@ -1,12 +1,17 @@
+body {
+    font-family: "Roboto", sans-serif;
+}
+
 .navbar {
     display: flex;
     flex-direction: row;
-    justify-content: start;
+    justify-content: space-between;
     align-items: start;
     gap: 8px;
     overflow-x: hidden;
     width: auto !important;
     padding: 8px 16px;
+    border-bottom: 1px solid grey;
 }
 
 .navbar .icon {
@@ -18,5 +23,113 @@
     white-space: nowrap;
     display: flex;
     align-items: center;
-    font-weight: 100;
+    font-weight: 300;
+    cursor: pointer;
+    transition: 200ms;
+}
+
+.navbar .link:hover {
+    font-weight: 600;
+    font-size: 18px;
+    transition: 200ms;
+}
+
+.boss {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: start;
+}
+
+.parent { 
+    width: 20%;
+    padding: 16px;
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+}
+.center { 
+    width: 50%;
+    padding: 16px;
+    box-sizing: border-box;
+}
+.final { 
+    width: 30%;
+    padding: 16px;
+    box-sizing: border-box;
+}
+
+.news > img {
+    width: 100% !important;
+    object-fit: cover;
+}
+
+.status {
+    display: inline-block;
+    font-size: 14px;
+    border-radius: 4px;
+    color: white;
+    background-color: red;
+    padding: 4px;
+}
+
+.parent-news {
+    font-weight: 600;
+}
+
+.center-news {
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    align-items: start;
+    gap: 10px;
+    border-left: 1px solid rgb(191, 191, 191);
+    border-right: 1px solid rgb(191, 191, 191);
+    padding: 0px 18px;
+}
+
+.center-news .title {
+    font-weight: 600;
+    font-size: 24px;
+}
+
+.final_news {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: start;
+}
+
+.final_news a {
+    width: 65% !important;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.final_news a .story {
+    font-weight: 600 !important;
+    font-size: 18px;
+}
+
+.final_news img {
+    width: 30% !important;
+    object-fit: cover;
+}
+
+.red {
+    color: red;
+}
+
+.list_news {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.divider {
+    height: 1px;
+    width: 100%;
+    border-bottom: 2px solid rgb(191, 191, 191);
 }
