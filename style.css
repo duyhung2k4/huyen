@@ -1,0 +1,22 @@
+.navbar {
+    display: flex;
+    flex-direction: row;
+    justify-content: start;
+    align-items: start;
+    gap: 8px;
+    overflow-x: hidden;
+    width: auto !important;
+    padding: 8px 16px;
+}
+
+.navbar .icon {
+    height: 18px !important;
+    width: 18px !important;
+}
+
+.navbar .link {
+    white-space: nowrap;
+    display: flex;
+    align-items: center;
+    font-weight: 100;
+}
