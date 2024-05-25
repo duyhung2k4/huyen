@@ -1,0 +1,61 @@
+.final {
+    display:flex;
+    justify-content: flex-start;
+    align-items: start;
+    flex-direction: column;
+    background-color: #E5BF8A;
+    padding: 16px;
+    border-radius: 8px;
+    color: white;
+    font-weight: 600;
+    margin-top: 20px;
+}
+
+.final img {
+    width: 100%;
+}
+
+.final text {
+    width: 100%;
+    border-left: 2px solid #BA7138;
+    padding: 4px 0px 4px 8px;
+    margin-bottom: 20px;
+    color: #BA7138;
+}
+
+.final > div {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    gap: 20px;
+}
+
+.final > div > div {
+    width: 50%;
+}
+
+.final_hotnews {
+    width: 100%;
+    color: black;
+    font-size: 18px;
+}
+
+.final_morenews {
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    align-items: start;
+    gap: 20px;
+}
+
+.final_morenews > div {
+    display: flex;
+    flex-direction: row;
+    justify-content: start;
+    align-items: start;
+    gap: 20px;
+}
+
+.final_morenews > div > img {
+    width: 50%;
+}

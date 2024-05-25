@@ -1,0 +1,54 @@
+@import url(./styles/container.css);
+@import url(./styles/boss.css);
+@import url(./styles/final.css);
+
+body{
+    font-family: 'Times New Roman', Times, serif;
+    margin: 0px;
+    box-sizing: border-box !important;
+    -webkit-box-sizing: border-box;
+    overflow-x: hidden;
+}
+header {
+    width:100%;
+    height: 50px;
+    display:flex;
+    justify-content: center;
+    font-style:italic
+}
+
+header > img{
+    height:60px;
+}
+
+.navbar{
+    width:100%;
+    height:50px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-weight: 800;
+    color:aliceblue;
+    background-color:#E60D80;
+    margin-top: 10px;
+    display:flex;
+    align-items:center;
+    gap:20px;
+    font-size:20px;
+    padding: 0px 16px 0px 16px;
+}
+.link {
+    display:block;
+    padding: 0 10px;
+    border-right:1px solid white;
+}
+    
+
+
+.icon > img {
+    height: 18px !important;
+    width: 18px !important;
+}
+
+.main {
+    padding: 0px 16px;
+    margin-bottom: 20px;
+}

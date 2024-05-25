@@ -1,0 +1,36 @@
+.boss {
+    display:flex;
+    justify-content: flex-start;
+    align-items: start;
+    flex-direction: column;
+    background-color: #F93A5C;
+    padding: 16px;
+    border-radius: 8px;
+    color: white;
+    font-weight: 600;
+    margin-top: 20px;
+}
+
+.boss > div {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    gap: 20px;
+}
+
+.boss text {
+    width: 100%;
+    border-left: 2px solid white;
+    padding: 4px 0px 4px 8px;
+    margin-bottom: 20px;
+}
+
+.boss img {
+    width: 100%;
+    aspect-ratio: 5/3;
+    object-fit: cover;
+}
+
+.box3, .box4, .box5 {
+    width: 33%;
+}
